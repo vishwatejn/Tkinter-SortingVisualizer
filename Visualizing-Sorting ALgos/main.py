@@ -47,11 +47,11 @@ def visualizedData(data, colorArray):
 def DataGenerator():
     global data
     minVal = int(miniVal.get())
-    maxVal = int(maxVal.get())
+    maxiVal = int(maxVal.get())
     size = int(arrSize.get())
     data = []
     for _ in range(size):
-        data.append(random.randrange(minVal, maxVal+1))
+        data.append(random.randrange(minVal, maxiVal+1))
     visualizedData(data, ['red' for x in range(len(data))])
 # Sorting Algorithms
 
